@@ -1,5 +1,7 @@
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 section{
     display: flex;
@@ -12,6 +14,11 @@ section{
     font-size: 30px;
     padding-left: 40px;
     margin-top: 50px;
+    
+}
+.banner{
+    background-image: url(image/7.png);
+    background-repeat: no-repeat;
 
 }
 .half-width img{
@@ -26,13 +33,14 @@ section{
     color: wheat;
     border-radius: 40px;
 }
-.quoation{
+.food-rec{
     text-align: center;
     width: 100%;
-    margin-right: 100px;
+    margin-top: 30px;
+    
 
 }
-.display-food{
+.display-food food-img{
     width: 100%;
     margin-left: 100px;
 
