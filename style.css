@@ -7,53 +7,74 @@ section{
     display: flex;
     }
 .blue-color{
-    color: blue;
+    color: rgb(192, 243, 7);
 }
 .half-width{
-    width: 50%;
-    font-size: 30px;
-    padding-left: 40px;
-    margin-top: 50px;
-    
+    width: 150%;
+    font-size: 20px;
+    margin: 40px 40px 0px 40px;
 }
 .banner{
     background-image: url(image/7.png);
     background-repeat: no-repeat;
+    margin-top: 30px;
 
 }
 .half-width img{
-    width: 60%;
+    width: 50%;
     padding-left: 80px;
        
 }
 .link-button{
     text-decoration: none;
-    background-color: blue;
+    background-color: rgb(53, 54, 3);
     padding: 10px;
-    color: wheat;
-    border-radius: 10px;
+    color: rgb(235, 239, 240);
+    border-radius: 30px;
+    font-size: 16px;
 }
 .food-rec{
     text-align: center;
     width: 100%;
-    margin-top: 30px;
-    
-
+    margin-top: 5px;
 }
-.display-food food-img{
+
+
+.container{
+    display: flex;
+    margin: 0 40px 0 40px;
+    margin-top: 10px;
+    
+}
+.food-box{
+    width: 40%;
+    box-shadow: 5px 5px 5px 5px gray;
+    padding: 20px;
+    margin: 50px;
+    border-radius: 10px;
+}
+img{
     width: 100%;
-    margin-left: 100px;
-
-
-    
     
 }
-.display-food img {
-    width: 30%;
-
+.suscriber{
+    margin: 50px;
+    display: flex;
     
 }
-
+.media{
+    text-align: center;
+    width: 40%;
+    box-shadow: 5px 5px 5px 5px gray;
+    padding: 20px;
+    margin: 50px;
+    border-radius: 10px;
+   
+}
+.media:hover{
+    color: hotpink;
+    background-color: indigo;
+}
 
 .footer{
     background-color: black;
@@ -61,6 +82,7 @@ section{
     margin-top: 20px;
     height: 130px;
     text-align: center;
+    padding: 10px;
 
    
 }
