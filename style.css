@@ -1,0 +1,61 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+section{
+    display: flex;
+    }
+.blue-color{
+    color: blue;
+}
+.half-width{
+    width: 50%;
+    font-size: 30px;
+    padding-left: 40px;
+    margin-top: 50px;
+
+}
+.half-width img{
+    width: 60%;
+    padding-left: 80px;
+       
+}
+.link-button{
+    text-decoration: none;
+    background-color: blue;
+    padding: 10px;
+    color: wheat;
+    border-radius: 40px;
+}
+.quoation{
+    text-align: center;
+    width: 100%;
+    margin-right: 100px;
+
+}
+.display-food{
+    width: 100%;
+    margin-left: 100px;
+
+
+    
+    
+}
+.display-food img {
+    width: 30%;
+
+    
+}
+
+
+.footer{
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    height: 130px;
+    text-align: center;
+
+   
+}
+.color {
+    color: tomato;
+}
